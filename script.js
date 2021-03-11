@@ -9,7 +9,7 @@ function update() {
     var currentDateEl = document.getElementById('currentDay');
     var currentTimeEl = document.getElementById('currentTime')
     
-    var currentDay = moment().format("dddd MMMM Do YYYY");
+    var currentDay = moment().format("dddd, MMMM Do, YYYY");
     currentDateEl.textContent = currentDay;
 
     var currentTime = moment().format("LTS");
@@ -32,8 +32,9 @@ $(document).ready(function() {
     $('.saveBtn').on('click', function() {
         var selectedDesc = $(this).siblings('.description').val();
         var selectedTime = $(this).parent().attr('id');
-        localStorage.setItem(selectedTime);
-        localStorage.setItem(selectedDesc);
+        // this sets selectedTime as the key and selectedDesc as the value in localStorage
+        localStorage.setItem(selectedTime, selectedDesc);
+        
         
         
     }); 
@@ -47,11 +48,11 @@ $(document).ready(function() {
     $('#10_AM .description').val(localStorage.getItem('10_AM'));
     $('#11_AM .description').val(localStorage.getItem('11_AM'));
     $('#12_PM .description').val(localStorage.getItem('12_PM'));
-    $('#1_PM .description').val(localStorage.getItem('1_PM'));
-    $('#2_PM .description').val(localStorage.getItem('2_PM'));
-    $('#3_PM .description').val(localStorage.getItem('3_PM'));
-    $('#4_PM .description').val(localStorage.getItem('4_PM'));
-    $('#5_PM .description').val(localStorage.getItem('5_PM'));
+    $('#13_PM .description').val(localStorage.getItem('13_PM'));
+    $('#14_PM .description').val(localStorage.getItem('14_PM'));
+    $('#15_PM .description').val(localStorage.getItem('15_PM'));
+    $('#16_PM .description').val(localStorage.getItem('16_PM'));
+    $('#17_PM .description').val(localStorage.getItem('17_PM'));
 
     hourTester();
 });
