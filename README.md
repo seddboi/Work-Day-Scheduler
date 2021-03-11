@@ -11,3 +11,11 @@ I then created the hour tester function, which tested the current hour (using Mo
 In order to get the entered values for the descriptions in each section, I had to get those items back in each section, to which I established a line of code for each section, .val() to set the value in each section, and the passed in parameter being localStorage.getItem() and passing in each key that was saved. That was done for each time slot that was created.
 
 ## Sample Viewing of the Project
+
+!(Untitled_ Mar 11, 2021 12_55 PM.gif)
+
+## Links to Repository and Functioning Site
+
+Github Repository: https://github.com/seddboi/Work-Day-Scheduler
+
+Working Site: https://seddboi.github.io/Work-Day-Scheduler/
