@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
+    crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+      <p id="currentTime" class="lead"></p>
+    </header>
+    <div class="container container-fluid ">
+      
+      <!-- 9am -->
+      <div id ='9_AM' class="input-group mt-5 row">
+        <div class="input-group-prepend col-md-1 hour ">9AM</div>
+        <textarea class="form-control col-md-10 description"></textarea>
+        <button class='btn saveBtn col-md-1'><i class="far fa-hdd"></i></button>
+      </div>
+
+      <!-- 10am -->
+      <div id ='10_AM' class="input-group row">
+        <div class="input-group-prepend col-md-1 hour ">10AM</div>
+        <textarea class="form-control col-md-10 description"></textarea>
+        <button class='btn saveBtn col-md-1'><i class="far fa-hdd"></i></button>
+      </div>
+
+      <!-- 11am -->
+      <div id ='11_AM' class="input-group row">
+        <div class="input-group-prepend col-md-1 hour ">11AM</div>
+        <textarea class="form-control col-md-10 description"></textarea>
+        <button class='btn saveBtn col-md-1'><i class="far fa-hdd"></i></button>
+      </div>
+
+      <!-- 12pm -->
+      <div id ='12_PM' class="input-group row">
+        <div class="input-group-prepend col-md-1 hour ">12PM</div>
+        <textarea class="form-control col-md-10 description"></textarea>
+        <button class='btn saveBtn col-md-1'><i class="far fa-hdd"></i></button>
+      </div>
+
+      <!-- 13pm -->
+      <div id ='13_PM' class="input-group row">
+        <div class="input-group-prepend col-md-1 hour ">1PM</div>
+        <textarea class="form-control col-md-10 description"></textarea>
+        <button class='btn saveBtn col-md-1'><i class="far fa-hdd"></i></button>
+      </div>
+
+      <!-- 14pm -->
+      <div id ='14_PM' class="input-group row">
+        <div class="input-group-prepend col-md-1 hour ">2PM</div>
+        <textarea class="form-control col-md-10 description"></textarea>
+        <button class='btn saveBtn col-md-1'><i class="far fa-hdd"></i></button>
+      </div>
+
+      <!-- 15pm -->
+      <div id ='15_PM' class="input-group row">
+        <div class="input-group-prepend col-md-1 hour ">3PM</div>
+        <textarea class="form-control col-md-10 description"></textarea>
+        <button class='btn saveBtn col-md-1'><i class="far fa-hdd"></i></button>
+      </div>
+
+      <!-- 16pm -->
+      <div id ='16_PM' class="input-group row">
+        <div class="input-group-prepend col-md-1 hour ">4PM</div>
+        <textarea class="form-control col-md-10 description"></textarea>
+        <button class='btn saveBtn col-md-1'><i class="far fa-hdd"></i></button>
+      </div>
+
+      <!-- 17pm -->
+      <div id ='17_PM' class="input-group row mb-5">
+        <div class="input-group-prepend col-md-1 hour ">5PM</div>
+        <textarea class="form-control col-md-10 description"></textarea>
+        <button class='btn saveBtn col-md-1'><i class="far fa-hdd"></i></button>
+      </div>
+
+    </div>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src='script.js'></script>
+  </body>
+</html>
