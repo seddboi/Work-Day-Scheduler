@@ -12,7 +12,7 @@ In order to get the entered values for the descriptions in each section, I had t
 
 ## Sample Viewing of the Project
 
-!(Untitled_ Mar 11, 2021 12_55 PM.gif)
+![](https://github.com/seddboi/Work-Day-Scheduler/blob/main/Untitled_%20Mar%2011%2C%202021%2012_55%20PM.gif)
 
 ## Links to Repository and Functioning Site
 
